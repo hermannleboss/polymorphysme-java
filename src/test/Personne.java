@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package testcompte;
+package test;
 
 /**
  *
@@ -29,5 +29,24 @@ public class Personne {
         this.Directeur = Directeur;
     }
 
+    public void setNom(String Nom) {
+        this.nom = Nom;
+    }
+
+    public void setDirecteur(Personne direc) {
+        this.Directeur = direc;
+    }
+
+    public String getNom() {
+        return this.nom;
+    }
+
+    public Personne getDirecteur() {
+        return this.Directeur;
+    }
+
+    public void sePresenter() {
+        System.out.println("je suis un persnonne je me nomme " + this.nom);
+    }
 
 }

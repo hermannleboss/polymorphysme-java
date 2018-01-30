@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package testcompte;
+package test;
 
 /**
  *
@@ -29,4 +29,5 @@ public class Etudiant extends Personne {
     public void sePresenter() {
         System.out.println("je suis un etudiant je me nomme " + super.getNom() + "je suis en " + this.classe);
     }
+    
 }

@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package testcompte;
+package test;
 
 /**
  *
@@ -18,5 +18,16 @@ public class Professeur extends Personne {
         this.matiere = matiere;
     }
 
+    public String getMatiere() {
+        return this.matiere;
+    }
+
+    public void setMatiere(String matiere) {
+        this.matiere = matiere;
+    }
+
+    public void sePresenter() {
+        System.out.println("je suis un professeur je me nomme " + super.getNom() + " je boss en " + this.getMatiere());
+    }
 
 }
