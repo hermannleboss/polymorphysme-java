@@ -27,7 +27,7 @@ public class Professeur extends Personne {
     }
 
     public void sePresenter() {
-        System.out.println("je suis un professeur je me nomme " + super.getNom() + " je boss en " + this.getMatiere());
+        System.out.println("je suis un professeur je me nomme " + super.getNom() + " j'enseigne " + this.getMatiere());
     }
 
 }
