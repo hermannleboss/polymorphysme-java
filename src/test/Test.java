@@ -16,6 +16,17 @@ public class Test {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+
+        Personne[] liste = new Personne[3];
+        Etudiant etu = new Etudiant("terminale", " HR le boss Pimenté ");
+        Professeur prf = new Professeur("Java", " Le Boss ");
+        Personne Per = new Personne("DUCON");
+        liste[0] = etu;
+        liste[1] = prf;
+        liste[2] = Per;
+        for (int i = 0; i < liste.length; i++) {
+            liste[i].sePresenter();
+        }
     }
-    
+
 }
